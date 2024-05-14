@@ -1,0 +1,186 @@
+/* DESKTOP FIRST RESPONSIVE DESIGN */
+
+p {
+  margin: 0;
+}
+
+
+#page-wrapper {
+  padding: 0px 30px;
+  text-align: center;
+}
+
+.project-img {
+  height: 100px;
+}
+
+#header-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#projects-header {
+  margin-left: 15px;
+}
+
+#projects-header p {
+  font-size: 1.4rem;
+}
+
+#badges > span > span {
+  font-size: 1.05rem;
+}
+
+#header-detail {
+  float: right;
+}
+
+
+#gallery {
+  height: 200px;
+  display: flex;
+  margin: 4vh 5vw 8vh 5vw;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.gallery-img-container {
+  background-color: #e3d9cb;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-img-container > img {
+  height: 90%;
+}
+
+
+#new-button {
+  margin: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #e3d9cb;
+  height: 25px;
+  font-size: 0.85rem;
+  color: #413221;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.status-finished {
+  color: white;
+  background-color: #99bd98;
+}
+
+.status-progress {
+  color: white;
+  background-color: rgb(190, 190, 54);
+}
+
+.status-none {
+  color: white;
+  background-color: lightpink;
+}
+
+/* Tablets - Screen sizes <= 991px */
+@media (max-width: 991px) {
+  .gallery-img-container > img {
+    height: 80%;
+  }
+  #gallery {
+    flex-wrap: wrap; /* Allow wrapping of containers */
+    column-gap: 10px;
+    height: 400px;
+  }
+  .gallery-img-container {
+    background-color: #e3d9cb;
+    border-radius: 15px;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+/* Mobile - Screen sizes <= 767px */
+@media (max-width: 767px) {
+
+  .gallery-img-container > img {
+    height: auto;
+    width: 60%;
+  }
+  #gallery {
+    flex-wrap: wrap; /* Allow wrapping of containers */
+    column-gap: 10px;
+    height: 400px;
+  }
+  .gallery-img-container {
+    background-color: #e3d9cb;
+    border-radius: 15px;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-brand {
+    font-size: 1.3rem;
+  }
+
+  .navbar-nav {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .nav-item {
+    margin-left: 5px;
+  }
+
+  #header-wrapper {
+    display: block;
+  }
+
+  #badges {
+    margin-left: 15px;
+    margin-bottom: 12px;
+  }
+
+  #badges > span > span {
+    font-size: 0.8rem;
+  }
+
+  .date-output {
+    display: none; /* hide to save space in mobile ver. */
+  }
+
+  .project-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .name-output {
+    font-size: 0.85rem;
+  }
+
+  tr {
+    height: 100px;
+
+  }
+
+
+
+
+}
