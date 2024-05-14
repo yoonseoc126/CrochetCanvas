@@ -1,7 +1,7 @@
 <?php 
-	define('DB_HOST', '303.itpwebdev.com');
-	define('DB_USER', 'yoonseoc_db_user');
-	define('DB_PASS', 'uscitp2024');
-	define('DB_NAME', 'yoonseoc_crochet_db');
+	define('DB_HOST', /* enter host */);
+	define('DB_USER', /* enter user */);
+	define('DB_PASS', /* enter pw */);
+	define('DB_NAME', /* enter db name */);
 
 ?>
